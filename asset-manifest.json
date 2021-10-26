@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactebazaar/static/css/main.481c3aec.chunk.css",
+    "main.js": "/reactebazaar/static/js/main.ed491de4.chunk.js",
+    "main.js.map": "/reactebazaar/static/js/main.ed491de4.chunk.js.map",
+    "runtime-main.js": "/reactebazaar/static/js/runtime-main.02a81c0f.js",
+    "runtime-main.js.map": "/reactebazaar/static/js/runtime-main.02a81c0f.js.map",
+    "static/js/2.83dea506.chunk.js": "/reactebazaar/static/js/2.83dea506.chunk.js",
+    "static/js/2.83dea506.chunk.js.map": "/reactebazaar/static/js/2.83dea506.chunk.js.map",
+    "index.html": "/reactebazaar/index.html",
+    "static/css/main.481c3aec.chunk.css.map": "/reactebazaar/static/css/main.481c3aec.chunk.css.map",
+    "static/js/2.83dea506.chunk.js.LICENSE.txt": "/reactebazaar/static/js/2.83dea506.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02a81c0f.js",
+    "static/js/2.83dea506.chunk.js",
+    "static/css/main.481c3aec.chunk.css",
+    "static/js/main.ed491de4.chunk.js"
+  ]
+}
