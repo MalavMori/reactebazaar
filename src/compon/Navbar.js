@@ -9,7 +9,7 @@ const Navbar = () => {
             <header>
                 <div className="navbar_main_div">
                     <div className="nav_logo">
-                    <img src="../image/Ebazaarlogoweb.png" alt="" />
+                    <img src="./image/Ebazaarlogoweb.png" alt="" />
                     </div>
                     {/* <div className="nav_search_div">
                         <input type="text" placeholder="Search your product" />
