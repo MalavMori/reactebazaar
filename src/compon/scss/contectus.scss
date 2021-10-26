@@ -1,0 +1,103 @@
+.form_main_div{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: grid;
+    place-items: center;
+    .form_main{
+        position: relative;
+        width: 700px;
+        height: 350px;
+        border-radius: 50px;
+        background-color: rgb(0, 190, 175);
+        padding: 20px;
+        .form_product_name{
+            margin: 10px;
+            font-size: 17px;
+            color: #fff;
+            display: flex;
+            h4{
+                margin: 0 20px;
+            }
+            .form_product_price{
+                width: 220px;
+                display: flex;
+                h4{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .form_all_input{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #fff;
+        div{
+            margin: 10px;
+            h4{
+                margin: 2px 5px;
+            }
+        }
+        input[type="email"]{
+            width: 350px;
+        }
+        input[type="number"]{
+            width: 150px;
+        }
+        .address{
+            width: 500px;
+            height: 80px;
+            border: 2px solid #fff;
+        }
+    }
+    .form_class_coman{
+        width: 250px;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        font-size: 17px;
+        padding: 2px;
+    }
+    .form_submit_btn{
+        position: absolute;
+        bottom: -50px;
+        button{
+            padding: 10px 30px;
+            border: none;
+            outline: none;
+            background-color: rgb(255, 196, 2);
+            font-size: 16px;
+            border-radius: 40px;
+            cursor: pointer;
+        }button:hover{
+            background-color: rgb(238, 182, 0);
+        }
+    }
+}
+@media (max-width:750px){
+    .form_main_div{
+        position: relative;
+        .form_main{
+            width: 90vw;
+            height: 100vh;
+            border-radius: 0;
+            .form_all_input{
+                display: block;
+            }
+            .form_class_coman{
+                width: 350px;
+            }
+        }
+        .form_product_name{
+            .form_product_price{
+                width: 400px;
+                max-width: 400px;
+            }
+        }
+    }
+}

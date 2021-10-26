@@ -1,0 +1,44 @@
+.navbar_main_div{
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    background-color: #00c2e4;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+    z-index: 1000;
+    .nav_logo{
+      margin: 0 20px;
+      img{
+        width: 120px;
+    }
+}
+.nav_search_div{
+    position: relative;
+    left: 15%;
+    input{
+      width: 348px;
+      height: 28px;
+      padding: 1px;
+      border-radius: 5px;
+      background-color: transparent;
+      box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+      // border: 2px solid #666;
+      border: none;
+      font-size: 18px;
+      color: #000;
+      outline: none;
+    }
+}
+.nav_list_div{
+  position: absolute;
+  right: 20px;
+  display: flex;
+  h4{
+    margin: 0 10px;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+}
