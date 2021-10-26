@@ -3,7 +3,7 @@ import productdata from './productsdata';
 import './scss/navbar.scss';
 import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+const Navbara = () => {
     return (
         <>
             <header>
