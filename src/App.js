@@ -12,6 +12,7 @@ const App = () => {
     <>
     <Router>
     <Navbar />
+    <Home />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/contactus" component={Contectus} />
